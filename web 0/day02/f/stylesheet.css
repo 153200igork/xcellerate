@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.overlay{
+    background-color: #000000;
+}
+
+.heading{
+background: url("./images/flowershop.jpg");
+height: 600px;
+position: relative;
+opacity: 0.7;
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.heading, #learn-more {
+    z-index: 1;
+   text-align: center;
+   color:rgb(252, 252, 252);
+}
+
+
+#learn-more {
+    background-color: #7ED321;
+    padding: 7px 15px 4px 14px;
+    border-radius: 100px;
+    font-size: 3vh;
+    font-weight: 800;
+    margin-top: 4vh;
+}
+
+
+.icons{
+
+    background-color: #CEE7B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+
+.icon{
+min-width: 50px;
+}
+
+.icon p {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.icon img {
+    height: 80%;
+}
+
+.icon p {
+    width: 50%;
+    padding-left: 9%;
+}
+
+@media only screen and (max-width: 700px) {
+    .icon {
+        width: 65vw;
+        flex-direction: column;
+        height: 280px;
+    }
+
+    .icon img {
+        height: 118px;
+    }
+
+    .icon p {
+        font-size: 12px;
+        width: 39vw;
+    }
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ .banner {
+     background-size: cover;
+     background-blend-mode: overlay;
+     background-color:#000000;
+     height: 75vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0px;
+     background: url("./assets/images/flowershop.jpg")
+     
+     
+ }
+
+ .heading, #learn-more {
+     z-index: 1;
+    text-align: center;
+    color:rgb(252, 252, 252);
+ }
+
+ #learn-more {
+    background-color: #7ED321;
+    padding: 7px 15px 4px 14px;
+    border-radius: 100px;
+    font-size: 3vh;
+    font-weight: 800;
+    margin-top: 4vh;
+}
+
+.icons {
+    background-color: rgb(211, 238, 185);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-bottom: 60px;
+}
+
+.icon {
+    min-width:50px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    }
+
+.overlay{
+    width: 100%;
+    height: 75vh;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.info{
+    background-color: rgb(195, 240, 148);
+}
+
+.flexspace{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}

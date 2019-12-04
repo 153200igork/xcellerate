@@ -1,0 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ .banner {
+     background-size: cover;
+     height: 110vh;
+     width: inherit;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0px;
+ }

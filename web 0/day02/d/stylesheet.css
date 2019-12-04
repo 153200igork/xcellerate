@@ -1,0 +1,25 @@
+.container{
+    background: white;
+    max-width: 960px;
+    margin: 0 auto;
+    display: inline-flex;
+
+}
+.blue {
+    background-color: rgb(49, 49, 255);
+    float: right;
+}
+.red {
+    background-color: red;
+    float: left;
+    margin-left: 10px;
+}
+.green {
+    background-color: rgb(40, 236, 40)
+    
+}
+
+.box {
+    height: 100px;
+    width: 100px;   
+}

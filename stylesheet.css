@@ -1,0 +1,23 @@
+
+.left-box{
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    float: left;
+}
+
+.right-box{
+  height: 100px;
+  width: 100px;
+  background-color:  chartreuse;
+  float: right;
+}
+
+.bottom-box{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    position: absolute;
+    bottom: 150px;
+    left: 680px;
+}
